@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+#imglist {
+	height: 200px;
+}
+#mainBox {
+	background-color: #D7DFE8;
+	padding: 10px;
+	width: 982px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#footer {
+	background-color: #9BADC4;
+	height: 35px;
+	width: 982px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	line-height: 35px;
+	text-align: center;
+	clear:both;
+}
+#leftBox {
+	float: left;
+	min-height: 840px;
+	width: 255px;
+}
+#newsbox {
+	height: 600px;
+	width: 100%;
+	background-color: #FFF;
+	text-align: center;
+	margin: 0px;
+	padding-top: 10px;
+}
+#newsbox a {
+	color:#C00;
+	text-decoration: underline;
+}
+#newsbox .red {
+	color:#C00;
+}
+
+.infotext {
+	color:#666;
+	font-style:italic;
+}
+#datebox {
+	height: 350px;
+	width: 100%;
+	background-color: #FFF;
+	text-align: center;
+	margin: 0px;
+	padding-top: 10px;
+	/*margin-top: 10px;*/
+}
+.delete {
+	color: #8A8A8A;
+	text-decoration:line-through;
+}
+#datebox .red {
+	color: #F00;
+	font-weight:bold;
+}
+#committeeBox {
+	height: 260px;
+	width: 100%;
+	background-color: #FFF;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+#sponsors {
+	background-color: #FFF;
+	height: 360px;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+
+#rightBox {
+	float: right;
+	min-height: 1340px;
+	width: 698px;
+	background-color: #FFF;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#rightBox p.content {
+	text-align:justify;
+	line-height:200%;
+}
+#rightBox p.submission {
+	text-align:justify;
+	line-height:200%;
+	font-size:20px;
+	color:#F00;
+}
+
+#rightBox p a.noline {
+	text-decoration:none;
+}
+
+#rightBox .startbold {
+	font-weight:bold;
+}
+#rightBox .boldfont {
+	font-weight:bold;
+}
+#rightBox span.bold {
+	font-weight:bold;
+}
+#rightBox span.boldbig {
+	/*font-weight:bold;*/
+	font-size: 18px;
+}
+#rightBox span.boldunderline {
+	font-weight:bold;
+	text-decoration:underline;
+}
+#rightBox p.title {
+	text-align:center;
+	color:#F00;
+	font-size: 16px;
+	/*font-weight:bold;*/
+}
+
+#rightBox p.redcontent {
+	text-align:justify;
+	line-height:200%;
+	color:red;
+}
+
+.titleP {
+	font-size: 18px;
+	font-weight: bold;
+	background-image: url(../images/titlePoint.jpg);
+	background-repeat: no-repeat;
+	line-height: 20px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+h3 {
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+h3.center {
+	margin-top: 5px;
+	margin-bottom: 7px;
+	text-align:center;
+	color:#0033FF;
+}
+.dataSpan {
+	color: #03F;
+}
+
+
+#rightBox p a.call {
+	font-size: 20px;
+	color: #F00;
+	text-decoration: underline;
+}
+#rightBox p a.submission {
+	font-size: 16px;
+	color: #F00;
+	text-decoration: underline;
+}
+#rightBox p a.travel {
+	color:#C00;
+	text-decoration: underline;
+}
+#rightBox a.session {
+	color: #F00;
+	text-decoration: underline;
+}
+#rightBox ul li {
+	line-height: 200%;
+}
+#rightBox ol li {
+	line-height: 200%;
+}
+#rightBox p span.date {
+	color:red;
+}
+
+#rightBox table.reg{border-collapse:collapse;border-spacing:0;border-left:2px solid #888;border-top:2px solid #888;} /*background:#efefef;*/
+#rightBox table.reg td{border-right:2px solid #888;border-bottom:2px solid #888;padding:5px 15px;}
+#rightBox table.reg th{border-right:2px solid #888;border-bottom:2px solid #888;padding:5px 15px;}
+
+#rightBox table.speaker{border-collapse:collapse;border-spacing:0;border-left:1px solid #D7DFE8;border-top:1px solid #D7DFE8;} /*background:#efefef;*/
+#rightBox table.speaker td{border-right:1px solid #D7DFE8;border-bottom:1px solid #D7DFE8;padding:5px; padding-left:10px;padding-right:10px; text-align:justify; line-height:200%;}
+#rightBox table.speaker td.img{border-right:0px;width:130px; height:180px; padding-right:0px;}
+#rightBox table.speaker td img{ border:0px; width:130px; height:180px;}
+#rightBox table.speaker td.intro{ vertical-align:top; padding-top:10px; font-size:16px; line-height:150%;}
+#rightBox table.speaker td.title{ font-size:18px; font-weight:bold; color:#005CFF; text-align:center}
+#rightBox table.speaker td span.bold{font-weight:bold}
+#rightBox table.speaker td span.abstract{font-weight:bold;color:#005CFF}
+#rightBox table.speaker td span.italic{ font-style:italic}
+
+#rightBox table.transfer{border-collapse:collapse;border-spacing:0;border: 1px solid blue; width:100%} 
+#rightBox table.transfer td{padding: 5px 15px;}
+#rightBox table.transfer td.mediary{vertical-align:top; width:25%}
+#rightBox table.transfer ol,li {padding:0; margin:0;}
+
+#rightBox table.transfer td span.blue {color:#0000FF; font-weight:bold}
+#rightBox table.transfer td span.oldred {color:#CC0000;font-weight:bold}
+#rightBox ul li span.boldred {color:red;font-weight:bold; font-style:italic}
+#rightBox ul li span.red {color:red; font-style:italic}
+
+.line150 {
+	line-height: 150%;
+}
+.line200 {
+	line-height: 200%;
+}
+
+.redfont {
+	color: #F00;
+	font-weight:bold;
+}
