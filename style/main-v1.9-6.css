@@ -141,7 +141,11 @@ body {
 	font-size: 16px;
 	/*font-weight:bold;*/
 }
-
+#rightBox p.blacktitle {
+	text-align:center;
+	font-size: 16px;
+	/*font-weight:bold;*/
+}
 #rightBox p.redcontent {
 	text-align:justify;
 	line-height:200%;
@@ -235,3 +239,13 @@ h3.center {
 	color: #F00;
 	font-weight:bold;
 }
+.red_font {
+	color: #F00;
+}
+
+/* For Gaode Map */
+.my-map { margin: 0 auto; width: 600px; height: 600px; }
+.my-map .icon { background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat; }
+.my-map .icon-cir { height: 31px; width: 28px; }
+.my-map .icon-cir-red { background-position: -11px -5px; }
+.amap-container{height: 100%;}
