@@ -194,6 +194,11 @@ h3.center {
 	color: #F00;
 	text-decoration: underline;
 }
+#rightBox a.sessionBig {
+	font-size: 20px;
+	color: #F00;
+	text-decoration: underline;
+}
 #rightBox ul li {
 	line-height: 200%;
 }
