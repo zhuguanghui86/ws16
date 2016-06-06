@@ -188,6 +188,11 @@ h3.center {
 	color: #F00;
 	text-decoration: underline;
 }
+#rightBox p a.volunteer {
+	line-height:200%;
+	font-size:20px;
+	color:#000;
+}
 #rightBox p a.travel {
 	color:#C00;
 	text-decoration: underline;
@@ -214,6 +219,11 @@ h3.center {
 #rightBox table.reg{border-collapse:collapse;border-spacing:0;border-left:2px solid #888;border-top:2px solid #888;} /*background:#efefef;*/
 #rightBox table.reg td{border-right:2px solid #888;border-bottom:2px solid #888;padding:5px 15px;}
 #rightBox table.reg th{border-right:2px solid #888;border-bottom:2px solid #888;padding:5px 15px;}
+
+
+#rightBox table.volu{border-collapse:collapse;border-spacing:0;border:2px solid #000;border-top:2px solid #000; margin-left:auto; margin-right:auto} /*background:#efefef;*/
+#rightBox table.volu td{border-right:1px solid #000;border-bottom:1px solid #000;padding:3px 5px;text-align:center;}
+#rightBox table.volu th{border-right:1px solid #000;border-bottom:1px solid #000;padding:3px 5px;}
 
 #rightBox table.speaker{border-collapse:collapse;border-spacing:0;border-left:1px solid #D7DFE8;border-top:1px solid #D7DFE8;} /*background:#efefef;*/
 #rightBox table.speaker td{border-right:1px solid #D7DFE8;border-bottom:1px solid #D7DFE8;padding:5px; padding-left:10px;padding-right:10px; text-align:justify; line-height:200%;}
