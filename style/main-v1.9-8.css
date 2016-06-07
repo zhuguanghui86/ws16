@@ -173,6 +173,11 @@ h3.center {
 	text-align:center;
 	color:#0033FF;
 }
+h3.blue {
+	margin-top: 5px;
+	margin-bottom: 7px;
+	color:#0033FF;
+}
 .dataSpan {
 	color: #03F;
 }
@@ -211,6 +216,13 @@ h3.center {
 }
 #rightBox ol li {
 	line-height: 200%;
+}
+#rightBox ol.noMargLeft {
+	padding-left: 15px;
+}
+#rightBox ol.noMargLeft li{
+	line-height: 200%;
+	padding-left: 0px;
 }
 #rightBox p span.date {
 	color:red;
